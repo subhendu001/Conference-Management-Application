@@ -1,0 +1,55 @@
+Step 1: Creating Tabs
+    1.To create the Sessions tab:
+        In Setup mode, select Build > Create > Custom Tabs
+        In the Custom Object Tabs section, click New
+        Select Session as the Object, click the magnifier icon next to Tab Style and select the Books icon
+        Click Next, Next
+
+    2.To create the Speakers tab:
+      In the Custom Object Tabs section, click New
+      Select Speaker as the Object, click the magnifier icon next to Tab Style and select the Presenter icon
+      Click Next, Next
+      
+      
+      
+Step 2: Creating the App:
+    In Setup mode, select Build > Create > App Manager > New Lighting App
+    Check Custom app and click Next
+    Enter Conference for both the App Label and App Name, and click Next
+    Accept the default App Logo and click Next
+    Add the Sessions and Speakers tabs to the Selected Tabs and click Next
+    Check the Visible checkbox for System Administrator and click Save
+  
+  
+  
+Step 3: Optimize the Session Page Layout:
+    In Setup mode, select Build > Create > Custom Objects
+    Click the Session link
+    In the Page Layouts section, click Edit next to Session Layout
+    In the Related Lists section, click the wrench icon (Related list properties)
+    Add the following fields to the Selected Fields:
+      Speaker: Speaker Number
+      Speaker: First Name
+      Speaker: Last Name
+    Remove the following field from the Selected Fields:
+      Session Speaker: Session Speaker Name
+     
+     
+Step 4: Optimize the Speaker Page Layout:
+    In Setup mode, select Build > Create > Custom Objects
+    Click the Speaker link
+    In the Page Layouts section, click Edit next to Speaker Layout
+    In the Related Lists section, click the wrench icon (Related list properties)
+    Add the following fields to the Selected Fields:
+      Session: Session Name
+      Session: Session Date
+    Remove the following field from the Selected Fields:
+      Session Speaker: Session Speaker Name
+
+
+Step 5: Optimize the Speaker Lookup
+  In Setup mode, select Build > Create >Custom Objects
+  Click the Speaker link
+  Scroll down to the Search Layouts section, and click Edit next to Lookup Dialogs
+  Add First Name and Last Name to the Selected Fields
+  Click Save
